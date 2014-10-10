@@ -1,0 +1,46 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:  #9C9CA8; 
+}
+
+.container {
+    background-color: #9C9CA8;
+}
+
+.logo {
+    background: url("http://placehold.it/130x130");
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+  
+  .logo {
+    background: url("http://placehold.it/256x256");
+    height: 256px;
+    width: 256px;
+    margin: auto;
+    margin-top: 10%;
+}
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
