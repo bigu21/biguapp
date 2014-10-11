@@ -3,6 +3,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color:  #9C9CA8; 
+  
 }
 
 .container {
@@ -10,11 +11,16 @@ body {
 }
 
 .logo {
-    background: url("http://placehold.it/130x130");
-    height: 130px;
-    width: 130px;
+    background: url("http://placehold.it/150x150");
+    height: 150px;
+    width: 150px;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 30%;
+}
+
+.facebooklogin{
+    margin-top: 40%;
+    max-width: 730px;
 }
 
 /* Customize container */
@@ -30,6 +36,22 @@ body {
     margin: auto;
     margin-top: 10%;
 }
+    .facebooklogin{
+    margin-top: 10%;
+    max-width: 530px;
+}
+    .choicescontainer{
+    background-color: #f5f5f5;
+}
+}   
+    
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
 
 /* centered columns styles */
@@ -44,3 +66,7 @@ body {
     /* inline-block space fix */
     margin-right:-4px;
 }
+    
+
+
+    
