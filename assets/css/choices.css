@@ -53,7 +53,9 @@ body{
 
 .avatar {
     background: url("../img/avatar.png");
-    
-    margin: auto;
+    padding: auto;
+    margin: 2% auto;
+    width: 92px;
+    height: 92px;
    
 }
