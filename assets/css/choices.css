@@ -72,6 +72,20 @@ body{
 }
 
 .iam{
-    background-color: black;
-    height: 20px;
+    
+    background-color: #93939E;
+    height: 45px;
+    margin-top: 18%;
+    
+    
 }
+
+.iam p{
+    
+    color: white;
+    height: 50px;
+    width: 80px;
+    margin: auto;
+    padding-top: 2%;
+}
+
