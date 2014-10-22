@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Bigu App</title>
 
     <!-- Bootstrap -->
@@ -21,39 +21,46 @@
     <![endif]-->
   </head>
   <body>
-      <div class="container choicescontainer">
-            <div class="navbar navbar-default navbar-fixed-top choicesheader">
-                <div class="avatar">
-                      <img src="http://henrique-102005.sae1.nitrousbox.com/bigu/assets/img/avatar.png" style="vertical-align:middle" />
-                      <p style="vertical-align:middle" >Username</p>
-                  </div>
-            </div>
-      
 
+      <div class="navbar navbar-default navbar-fixed-top choicesheader">
+          <div class="avatar">
+              <img src="http://henrique-102005.sae1.nitrousbox.com/bigu/assets/img/avatar.png" style="vertical-align:middle" />
+              <p style="vertical-align:middle" >Username</p>
+          </div>
+      </div>
+      
+      <div class="container choicescontainer">
           <div class="iam">
-              <p>Eu Sou:</p>
+              <p>Eu sou</p>
           </div>
           
           <div class="row">
-            <div class="col-xs-6">
-                <center><a href="#" class="btn btn-lg btn-default choicebuttom">Motorista</a></center>
-           </div>
-            
-            <div class="col-xs-6">
-                <center><a href="#" class="btn btn-lg btn-default choicebuttom">Caroneiro</a></center>
-            </div>
+                <div class="col-xs-6">
+                    <center><a href="#" class="btn btn-lg btn-default choicebuttom">Motorista</a></center>
+               </div>
+
+                <div class="col-xs-6">
+                    <center><a href="#" class="btn btn-lg btn-default choicebuttom">Caroneiro</a></center>
+                </div>
           </div>
           
           <div class="iam">
-              <p>Meu Destino:</p>
+              <p>Meu destino</p>
           </div>
-          
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
-  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Regular link</a></li>
-  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
-  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another link</a></li>
-</ul>
          
+          <div class="dropdown">
+              
+             <select class="form-control input-lg">
+                  <option>UFRJ</option>
+                  <option>UFF</option>
+                  <option>UERJ</option>
+                  <option>PUC</option>
+              </select>
+                 
+            
+              
+          
+          </div>
           
       </div>
       

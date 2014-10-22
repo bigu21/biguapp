@@ -1,19 +1,66 @@
-/* Space out content a bit */
-body {
-  padding-top: 20px;
+ body {
+  padding-top: 0px;
   padding-bottom: 20px;
-  background-color:  #9C9CA8; 
-  
-}
+  background-color:  #9C9CA8;   
+} 
 
-.container {
+  .container {
     background-color: #9C9CA8;
+    max-width: 730px;
+}
+  
+  .logo {
+    background: url("http://placehold.it/120x120");
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-top: 25%;
+}
+    .facebooklogin{
+    margin-top: 20%;
+    max-width: 530px;
+}
+    .choicescontainer{
+    background-color: #f5f5f5;
+}
+      
+.col-centered {
+    display:inline-block;
+    float:none; 
+    /* inline-block space fix */
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right:-4px;
 }
 
-.logo {
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+/* Customize container Medium Screens*/
+@media (min-height: 420px) and (max-height: 667px) {
+  .logo {
     background: url("http://placehold.it/150x150");
     height: 150px;
     width: 150px;
+    margin: auto;
+    margin-top: 15%;
+}
+    .facebooklogin{
+    margin-top: 30%;
+    max-width: 530px;
+}
+    
+}
+
+/* Customize container BIG SCREENS*/
+@media (min-height: 668px) {
+
+.logo {
+    background: url("http://placehold.it/250x250");
+    height: 250px;
+    width: 250px;
     margin: auto;
     margin-top: 20%;
 }
@@ -22,51 +69,9 @@ body {
     margin-top: 100px;
     max-width: 730px;
 }
-
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-  
-  .logo {
-    background: url("http://placehold.it/256x256");
-    height: 256px;
-    width: 256px;
-    margin: auto;
-    margin-top: 10%;
-}
-    .facebooklogin{
-    margin-top: 10%;
-    max-width: 530px;
-}
-    .choicescontainer{
-    background-color: #f5f5f5;
-}
-}   
-    
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
-
-/* centered columns styles */
 .row-centered {
     text-align:center;
+    margin-left: 95px;
+    margin-right: 95px;
 }
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
 }
-    
-
-
-    
